@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<form action="parser.php" method= "POST">
+			<p>Название страховой компании: </p>
+				<p> <input required type= "text" name= "cName"> </p>
+			<p>Адрес компании: </p>
+				<p> <input required type= "text" name= "cAddr"> </p> 
+			<p>От: </p>
+				<p> <input required type= "text" name= "uName"> </p>
+			<p>Контактный телефон: </p>
+				<p> <input required type= "text" name= "uPhone"> </p>
+			<p>Адрес страхователя: </p>
+				<p> <input required type= "text" name= "uAddr"> </p>	
+			<p>№ Договора страхования: </p>
+				<p> <input required type= "text" name= "cNum"> </p>
+			<p>Размер страхового взноса: </p>
+				<p> <input required type= "text" name= "cPayment"> </p>
+			<p>Получатель выплаты (Страхователь, ФИО полностью): </p>
+				<p> <input required type= "text" name= "cReciever"> </p>
+			<p>Наименование банка: </p>
+				<p> <input required type= "text" name= "bName"> </p>
+			<p>Корреспондентский счет (банка): </p>
+				<p> <input required type= "text" name= "bAcc"> </p>
+			<p>БИК: </p>
+				<p> <input required type= "text" name= "bID"> </p>
+			<p>№ счёта получателя: </p>
+				<p> <input required type= "text" name= "uAcc"> </p>
+			<p>Дата оплаты страховой премии (страхового взноса): </p>
+				<p> <input required type= "text" name= "pDate"> </p>
+			<p>Название Банка, где был заключен Договор страхования: </p>
+				<p> <input required type= "text" name= "pBank"> </p>
+			<p>Дата заполнения (оставьте пустым для текущей даты): </p>
+				<p> <input type= "text" name= "cDate"> </p>	
+				
+			<input type= "submit" value= "Заполнить">
+	</body>
+</html>
